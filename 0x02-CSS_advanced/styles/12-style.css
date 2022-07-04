@@ -66,11 +66,11 @@ a {
 }
 
 .section-title {
-  font-family: font-family-title;
-  font-size: font-size-xx-large;
-  font-weight: font-weight-bold;
-  margin: section-title-margin;
-  color: section-title-color;
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-xx-large);
+  font-weight: var(--font-weight-bold);
+  margin: var(--section-title-margin);
+  color: var(--section-title-color);
 }
 
 .section-tagline {
