@@ -175,9 +175,15 @@ template {
 }
 
 html {
-  box-sizing: content-box;
+  box-sizing: border-box;
   scroll-behavior: smooth;
   font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 body {
