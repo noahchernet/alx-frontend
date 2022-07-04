@@ -58,7 +58,7 @@ a:visited {
 }
 
 a:hover {
-  font-style: underline;
+  text-decoration: underline;
 }
 
 a:active {
